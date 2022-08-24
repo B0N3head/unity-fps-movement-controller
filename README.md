@@ -2,22 +2,26 @@
 A simple to setup easy to edit unity fps movement controller using rigidbodies in c#. Feel free to use it if you'd like!
 
 ### Features
-- Walking
-- Mouse lock
-- Sprinting
-- Crouching (toggle/hold) (midair/on ground only)
-- Jumping
-- Labled inspector
-- Configurable speeds for crouching, walking, sprinting etc.
-- Smoothing of the camera, controlled by the mouse
-- Clamped look directions
-- No slippery movement
-- Slower movement while jumping and extra gravity
-- Configurable keys for actions
-- Fast auto setup in one button button push
-  - Creates and sets up rigidbody
-  - Creates and sets up camera 
-  - Sets gravity to -19
+- [x] Walking/Sprinting
+- [x] Jumping
+- [x] Mouse lock
+- [x] Crouching 
+	- [x] Can be configured to be toggle or hold
+	- [x] Config to allow to crouch in midair or on ground only
+- [x] Labled inspector
+- [x] Configurable speeds for crouching, walking, sprinting etc.
+- [x] Variable smoothing of the camera, controlled by the mouse
+- [x] Clamped look directions
+- [x] Quick and snappy movement
+- [x] Slower movement while jumping and extra gravity
+- [x] Configurable keys for all actions
+- [x] Fast auto setup in one button button click
+	- [x] Creates and sets up rigidbody
+	- [x] Creates and sets up camera 
+	- [x] Sets unity physics gravity to -19
+		- [ ] Ask user if they want to set custom gravity
+	- [ ] Create floor plane for character to stand on
+  
 
 ### Controls
 This script is currently setup with the following controls.
@@ -25,10 +29,10 @@ These are all configurabe in the editor (don't require coding)
 
 | Key(s) | Action |
 | ------ | ------ |
-| WSAD | Simple movement |
+| WSAD | Simple character movement |
 | Space | Jump |
-| Z | Crouch |
-| Q | Lock/Unlock Mouse |
+| Z | Crouch (CTRL in editor runs hotkeys) |
+| Q | Lock/Unlock Mouse (For in editor changes)|
 
 ### How to setup the character
 
