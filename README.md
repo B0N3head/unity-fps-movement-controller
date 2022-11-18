@@ -2,7 +2,6 @@
 A simple to setup easy to edit unity fps movement controller using rigidbodies in c#. Feel free to use it if you'd like!
 ## Features
 
-
 - [x] Fully momentum based movement
 - [x] Customizable speeds for:
 	- [x] Walking
@@ -42,7 +41,7 @@ A simple to setup easy to edit unity fps movement controller using rigidbodies i
 ### Visual examples
 | Variable Jump Height & Jump Cooldown | Smoothed `lerp` Crouch vs Non-Smothed | Coyote Time (Slowed & Exaggerated) |
 | ------ | ------ |------ |
-| <img src="https://raw.githubusercontent.com/B0N3head/unity-fps-movement-controller/main/readmeAssets/varJumpHeight.gif" width="300" /> | <img src="https://raw.githubusercontent.com/B0N3head/unity-fps-movement-controller/main/readmeAssets/crouching.gif" width="300" /> | <img src="https://raw.githubusercontent.com/B0N3head/unity-fps-movement-controller/main/readmeAssets/coyoteTime.gif" width="300" /> |
+| <img src="https://raw.githubusercontent.com/B0N3head/unity-fps-movement-controller/main/readmeAssets/varJumpHeight.gif" width="250" /> | <img src="https://raw.githubusercontent.com/B0N3head/unity-fps-movement-controller/main/readmeAssets/crouching.gif" width="250" /> | <img src="https://raw.githubusercontent.com/B0N3head/unity-fps-movement-controller/main/readmeAssets/coyoteTime.gif" width="250" /> |
 
 <br/>
 
@@ -58,7 +57,7 @@ These are all configurable in the editor (don't require any coding)
 | Z | Crouch |
 | Q | Lock/Unlock Mouse |
 
-###### *CTRL creates issues when testing in editor so Z is used (shift + keys = run unity hotkey)
+###### *CTRL creates issues when testing in editor so Z is used (ctrl + keys = run unity hotkey)
 
 <br/>
 
