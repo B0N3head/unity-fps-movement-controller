@@ -1,0 +1,55 @@
+name: Bug Report
+title: I have found a bug!!!
+description: Report bugs so this controller can be improved
+labels: Bug
+
+body:
+
+- type: textarea
+  attributes:
+    label: What Unity version are you using?
+    description: Just the year and the first number afterwards
+    render: text
+    placeholder: |
+      Example: 2021.3
+  validations:
+    required: true
+    
+- type: textarea
+  attributes:
+    label: Expected behavior vs actual behavior
+    render: text
+    placeholder: |
+      What did you expect and what actually happened? (Optional)
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: General steps to reproduce
+    description: Doesn't have to be too specific, just enough to reproduce
+    render: text
+    placeholder: |
+      Download and import into project
+      then...
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Any changes made to the base code?
+    description: List changes made to the code. If none leave blank
+    render: text
+    placeholder: "blank"
+  validations:
+    required: false
+
+
+- type: textarea
+  attributes:
+    label: Other details
+    render: text
+    placeholder: |
+      Note anything else you can provide regarding the issue you're running into.
+  validations:
+    required: false
