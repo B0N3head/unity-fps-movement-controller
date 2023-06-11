@@ -8,11 +8,10 @@ labels: Bug
 
 body:
 
-- type: textarea
+- type: input
   attributes:
     label: What Unity version are you using?
     description: Just the year and the first number afterwards
-    render: text
     placeholder: "Example: 2021.3"
   validations:
     required: true
